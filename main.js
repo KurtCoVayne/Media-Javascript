@@ -43,7 +43,7 @@ const e6 = () => {
     let im = d.appendChild(document.createElement('img'))
     im.src = "http://via.placeholder.com/350x150"
 
-    let p = d.appendChild(document.createElement('h1'))
+    let p = d.appendChild(document.createElement('p'))
     let pTexto = document.createTextNode('Lorem ipsum dolor sit amet, consectetur adipisicing elit')
     p.appendChild(pTexto)
 
