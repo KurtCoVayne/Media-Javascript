@@ -50,7 +50,7 @@ const e6 = () => {
 }
 const e7 = () => {
     let ul = document.querySelector('ul')
-    for(let i = 1; i < 3; ++i ){
+    for(let i = 1; i < 3+1; ++i ){
         let li = document.createElement('li')
         let liText = document.createTextNode(`${i}`)
         li.appendChild(liText)
